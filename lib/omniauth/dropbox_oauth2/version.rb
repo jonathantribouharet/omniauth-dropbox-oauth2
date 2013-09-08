@@ -1,5 +1,5 @@
 module OmniAuth
-	module DropboxOAuth2
+	module DropboxOauth2
 		VERSION = '1.0.0'
 	end
 end

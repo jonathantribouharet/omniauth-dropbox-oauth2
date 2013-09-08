@@ -2,8 +2,8 @@ require 'omniauth-oauth2'
 
 module OmniAuth
 	module Strategies
-		class DropboxOAuth2 < OmniAuth::Strategies::OAuth2
-			option :name, "dropbox_oauth2"
+		class DropboxOauth2 < OmniAuth::Strategies::OAuth2
+			option :name, 'dropbox_oauth2'
 
 			option :client_options, {
 				:site => "https://api.dropbox.com",
